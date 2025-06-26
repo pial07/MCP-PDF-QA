@@ -11,6 +11,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from retrieval import build_rag_qa_chain
 
+
 # Initialize MCP server
 mcp = FastMCP("pdfqaserver")
 
